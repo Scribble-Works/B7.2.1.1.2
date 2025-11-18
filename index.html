@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relation Rule Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 Relation Rule Challenge</h1>
+        <p>Analyze the table of values and select the correct rule that describes the relationship between x and y.</p>
+        
+        <div id="quiz-box">
+            </div>
+
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        
+        <div id="results" class="hidden">
+            <h2>Quiz Complete!</h2>
+            <p>You scored: <span id="score-display">0</span> out of 10.</p>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
