@@ -12,7 +12,8 @@
         <p>Analyze the table of values and select the correct rule that describes the relationship between x and y.</p>
         
         <div id="quiz-box">
-            </div>
+            <!-- Questions will be injected here -->
+        </div>
 
         <button id="next-btn" onclick="nextQuestion()">Next Question</button>
         
@@ -22,6 +23,10 @@
             <button onclick="location.reload()">Play Again</button>
         </div>
     </div>
+
+    <!-- 🔊 Sound Effects -->
+    <audio id="correct-sound" src="asset/brass-fanfare-reverberated-146263.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="asset/cartoon-fail-trumpet-278822.mp3" preload="auto"></audio>
 
     <script src="script.js"></script>
 </body>
